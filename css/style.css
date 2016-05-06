@@ -1,5 +1,16 @@
+/* resets browser default margin and padding */
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 html{
-  font-family: 'Merriweather', serif; 
   font-family: 'Source Serif Pro', serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -42,7 +53,6 @@ p{
 .section-title{
   /*color:#814374; 1st section title color choosen, changed to white*/
   color: #fff; /* section title(s) color */
-  font-family: 'Source Serif Pro', serif;
   font-size:3rem;
   font-weight: 700;
   margin: 5%;
@@ -59,7 +69,6 @@ p{
 
 .section-title{
   color: #fff;
-  font-family: 'Source Serif Pro', serif;
   font-size: 3rem;
   font-weight: 700;
   margin: 5% 0 0 0;
@@ -108,7 +117,7 @@ p{
 
 /* footer */
 .footer{
-  font-size: rem;
+  font-size: 3rem;
   background-color: #333333;
   text-align: center;
   padding: 0 0 5% 0;
@@ -129,7 +138,6 @@ p{
 
 /*slogan */
 #slogan{
-  font-family: 'Source Serif Pro', serif;
   font-size: 2rem;
   font-weight: 400;
 	font-style: italic;
