@@ -17,14 +17,24 @@ html{
 
 body{
 	text-align: center;
-	/* background-color: #F2F2F2; 1st background color choosen, changed to purple */
   background-color: purple; /*page background color */
+}
+
+header { /* remove after project submission */
+  background-color: #FFED74;
+}
+
+section { /* remove after project submission */
+  background-color: #FFE2B8;
+}
+
+article { /* remove after project submission */
+  background-color: #E89C6C;
 }
 
 ul{
 	color: #51A39D; /* text color */
   font-family: 'Merriweather', serif; 
-	/*font-weight: bold;*/
 	text-align: center;
 	list-style:none; /* removes bullets */
 }
@@ -32,6 +42,7 @@ ul{
 nav ul{
 	position: fixed; /* makes nav sticky */
   background-color:  #333333;
+  background-color: #E8C66A; /* remove after project submission */
   top: 0;
   width: 100%;
   padding: 1% 0;
@@ -51,7 +62,6 @@ p{
 /*sections*/
 
 .section-title{
-  /*color:#814374; 1st section title color choosen, changed to white*/
   color: #fff; /* section title(s) color */
   font-size:3rem;
   font-weight: 700;
@@ -64,7 +74,7 @@ p{
 }
 
 .profile-photo{
-  border-radius: 50%
+  border-radius: 50% /* creates rounded corners vs squared corners */
 }
 
 .section-title{
@@ -119,6 +129,7 @@ p{
 .footer{
   font-size: 3rem;
   background-color: #333333;
+  background-color: #FF957E; /* remove after project submission */
   text-align: center;
   padding: 0 0 5% 0;
 }
