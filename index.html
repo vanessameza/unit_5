@@ -13,8 +13,27 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 </head>
 <body>
-	<header>
-		<nav>
+<nav role="navigation" id="mobileMenu">
+  <div id="menuToggle">
+    <input type="checkbox" />
+    
+   <!-- Some spans to act as a hamburger -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!-- The menu has to be inside of the button -->
+    <ul id="menu">
+      <li><a href="#about">About</a></li>
+      <li> <a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+	<header> 
+    
+		<nav id="mainMenu">
 			<ul>
 				<li> 
           <a href="#about">About</a>
@@ -71,19 +90,19 @@
   <div class="projects-content">
     <h2 class="section-title">Projects</h2>
     <div class="col-4">
-      <a href="" target="_target"><img class="img-full" src="http://placehold.it/350x150" alt="" title=""></a>
+      <a href= "images/Test_1.jpg "target="_target"><img class="img-full" src="images/Test_1.jpg"></a>
         <article class="section-article">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem maxime suscipit culpa iure sit labore veritatis hic odio accusantium placeat, dolorum earum quo. Dicta id beatae totam, aut architecto molestiae?</p>
         </article>
     </div>
     <div class="col-4">
-      <a href= "" target="_target"><img class="img-full" src="http://placehold.it/350x150" alt="" title=""></a>
+       <a href= "images/Test_2.jpg "target="_target"><img class="img-full" src="images/Test_2.jpg"></a>
       <article class="section-article">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem maxime suscipit culpa iure sit labore veritatis hic odio accusantium placeat, dolorum earum quo. Dicta id beatae totam, aut architecto molestiae?</p>
       </article>
     </div>
     <div class="col-4">
-      <a href="" target="_target"><img class="img-full" src="http://placehold.it/350x150" alt="" title=""></a>
+      <a href="https://github.com/vanessameza/start-up-landing-page-clone.git" target="_target"><img class="img-full" src="images/TEst_3.png" alt="Karma Landing Page Clone"></a>
       <article class="section-article">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem maxime suscipit culpa iure sit labore veritatis hic odio accusantium placeat, dolorum earum quo. Dicta id beatae totam, aut architecto molestiae?</p>
       </article>
