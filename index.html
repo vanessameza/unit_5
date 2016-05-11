@@ -139,6 +139,10 @@ $(function() {
       }
     }
   });
+  $("#menu li a").click(function(){
+    console.log('menu item click');
+    $("input").prop("checked",false);
+  });
 });
 </script> 
 </body>
